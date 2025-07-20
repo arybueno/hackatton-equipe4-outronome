@@ -1,0 +1,31 @@
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+main{
+    flex-grow: 1;
+}
+
+body{
+    background-color:rgb(247, 249, 250);
+}
+
+header{
+    background-color:  #d19b6e;
+    height: 100px;
+    padding: 10px 50px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer {
+  background-color: #F4F5F6;
+  text-align: center;
+  font-size: 16px;
+}
