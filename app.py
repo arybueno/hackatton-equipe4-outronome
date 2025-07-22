@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.get("/")
 def index():
-    return "<h1>Olá</h1>"
+    return render_template('index.html')
+
+@app.get("/formulario")
+def form():
+    return render_template("formulario.html")
 
 
 if __name__ == '__main__':

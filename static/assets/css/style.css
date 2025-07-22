@@ -28,4 +28,17 @@ footer {
   background-color: #F4F5F6;
   text-align: center;
   font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.foto-inicial {
+    width: 100vw;
+}
+
+
+.centered-img {
+    height: calc(100vh - 119px);
 }
