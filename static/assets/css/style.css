@@ -107,35 +107,3 @@ button {
 button:hover {
   background-color: #0056b3;
 }
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  border: 3px solid black;
-}
-.question {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-.options {
-  list-style: none;
-  padding: 0;
-}
-.options li {;
-  margin-bottom: 8px;
-}
-input[type="checkbox"] {
-  margin-right: 10px;
-}
-button {
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #45a049;
-}
