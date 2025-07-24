@@ -26,6 +26,9 @@ def form():
          "image" : "salada.jpg"
          "restricoes" : ["Vegano", "Vegetariano", "Leite", "Gluten"]
       },
+      {
+         "nome" : ""
+      }
   ]
 
 if __name__ == '__main__':
