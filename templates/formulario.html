@@ -6,25 +6,25 @@
 
 <div class="body-form">
     <div class="form-container">
-    <h1>Entre em Contato</h1>
+    <h1>Adicione suas Restrições</h1>
     <form action="/cardapio" method="post">
       <label for="name">Nome</label>
-      <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+      <input class="input-text" type="text" id="name" name="name" placeholder="Digite seu nome" required>
 
       <label for="email">E-mail</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+      <input class="input-text" type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
 
       <label for="zap">Seu telefone</label>
-      <input type="tel" id="zap" name="zap" placeholder="Digite seu telefone" required>
+      <input class='input-text' type="tel" id="zap" name="zap" placeholder="Digite seu telefone" required>
 
   <div class="container">
     <div class="question">Restrições:</div>
-    <label><input type="checkbox" name="comidas" value="vegano"> vegano</label>
-    <label><input type="checkbox" name="comidas" value="vegetariano"> Vegetariano</label>
-    <label><input type="checkbox" name="comidas" value="leite"> Leite</label>
-    <label><input type="checkbox" name="comidas" value="glúten"> Glúten</label>
+    <label><input class="input" type="checkbox" name="comidas" value="vegano"> vegano</label>
+    <label><input class="input" type="checkbox" name="comidas" value="vegetariano"> Vegetariano</label>
+    <label><input class="input" type="checkbox" name="comidas" value="leite"> Leite</label>
+    <label><input class="input" type="checkbox" name="comidas" value="glúten"> Glúten</label>
   </div>
-    Aceito os Termos e Condições
+    <label><input type="checkbox" name="termos" value="term-vall">  Aceito termos e condições</label>
     </label>
 
       <button type="submit">Enviar</button>

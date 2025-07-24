@@ -78,7 +78,7 @@ label {
   font-weight: bold;
 }
 
-input, textarea {
+.input-text, textarea{
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -106,4 +106,7 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+.input-text{
+  
 }
