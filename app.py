@@ -18,18 +18,26 @@ def form():
   pratos = [
      {
       "nome": "feijoada" 
-      "image" : "feijoada.jpg"
+      "imagem" : "feijoada.jpg"
       "restricoes" : []
       },
       {
-         "nome" : "salada"
-         "image" : "salada.jpg"
+         "nome" : "salada Vegetariana"
+         "imagem" : "salada.jpg"
          "restricoes" : ["Vegano", "Vegetariano", "Leite", "Gluten"]
       },
       {
-         "nome" : ""
+         "nome" : "lasanha"
+         "imagem" : "lasanha.jpg"
+         "restricoes": ["Vegetariano", "Leite", "Gluten"]
+      },
+      {
+         "nome" : "Hamburguer Vegano"
+         "imagem" : "Hamburguer.jpg"
+         "restricoes" : 
       }
-  ]
+       
+        ]
 
 if __name__ == '__main__':
     app.run(debug=True)
